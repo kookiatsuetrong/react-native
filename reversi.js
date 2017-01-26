@@ -69,7 +69,7 @@ export class MyApp extends Component {
 				tiles[i-1][j-1] = (
 					<TouchableOpacity style={b}
 						onPress={this.click.bind(this, p)}
-					><Text style={s}></Text>
+					><View style={s}></View>
 					</TouchableOpacity>);
 			}
 		}
